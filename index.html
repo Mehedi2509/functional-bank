@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bapper Bank</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-10">Welcome to <span
+                class="text-yellow-500 font-semibold">Bapp-Er-Bank</span>
+            !!!</h1>
+    </header>
+    <main>
+        <section class="bg-green-200 w-1/2 mx-auto mt-10 p-4 flex justify-center pb-10">
+            <div>
+                <h2 class="text-2xl mb-6 mt-6 font-semibold text-gray-500">Please Login</h2>
+                <div>
+                    <input class="block border gb-gray-200 rounded-md mb-4 px-2 py-1 w-60" type="email" name=""
+                        id="user-email" placeholder="Enter email">
+                    <input class="block border gb-gray-200 rounded-md mb-1 px-2 py-1 w-60" type="password" name=""
+                        id="user-password" placeholder="Enter password">
+                    <p id="invalid" class="text-xs"></p>
+                    <button id="login-btn"
+                        class="bg-yellow-500 text-white font-medium rounded px-8 py-1 mt-4">Login</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/bank.js"></script>
+</body>
+
+</html>
